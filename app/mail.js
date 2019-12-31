@@ -10,15 +10,14 @@ const nullOrEmpty = (variable) => {
         return false
 }
 let init = (req, res, config) => {
-    /* Comment To development 
-    if (!req.get('origin').includes('https://gabrields.dev')) {
-        res.status(400);
-        res.send('Bad Origin Request')
-        return
-    }*/
-    if (req.method == 'POST') {
-        console.log(config);
 
+    if (req.method == 'POST') {
+        /* Comment To development 
+        if (!req.get('origin').includes('https://gabrields.dev')) {
+            res.status(400);
+            res.send('Bad Origin Request')
+            return
+        }*/
         let from = 'no.replygabrields@gmail.com';
         let to = 'contact@gabrields.dev';
         let subject = req.body.subject;
