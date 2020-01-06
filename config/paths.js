@@ -1,5 +1,6 @@
 let paths = {
-    "/": "../app/mail"
+    "/": "../app/mail",
+    "/requestHelp": "../app/requestHelp"
 }
 
 module.exports = paths
