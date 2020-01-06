@@ -15,4 +15,4 @@ Set SMTP Server Parameters in config/config.js
 }
 ```
 
-Incremented Email Validation
+Increment Email Validation
